@@ -5,7 +5,7 @@ function showingQuestion(value){
 function calculate(){
     var ans = document.getElementById("answer").value;
     var res = eval(ans)
-    document.getElementById("answer").value = res
+    document.getElementById("answer").value = res;
 }
 
 function clearAnswer(){
@@ -26,5 +26,6 @@ function sqrt(){
 
 function pwr2(){
     var answer = document.getElementById("answer").value;
-    document.getElementById("answer").value = Math.pow(answer, 2);
+    var res = Math.pow(answer, 2);
+    document.getElementById("answer").value = res;
 }

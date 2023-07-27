@@ -1,0 +1,57 @@
+@font-face {
+    font-family: digital;
+    src: url(yoster-island/CONMANFAT.ttf);
+}
+
+body{
+    background-color: black;
+}
+
+.calculator{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #c9d99e;
+    padding: 20px;
+    border-radius: 5%;
+}
+
+#answer{
+    width: 465px;
+    height: 80px;
+    font-size: 50px;
+    background-color: #fffef0;
+    margin: 0px 0px 0px 10px;
+    font-family: digital;
+}
+
+.button{
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    margin: 0px 10px;
+    font-size: 30px;
+    background-color: #ffdea8;
+    font-family: digital;
+}
+
+.button-level1{
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    margin: 0px 10px;
+    font-size: 30px;
+    background-color: #ed9153; 
+    font-family: digital;
+}
+
+.button-level2{
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    margin: 0px 10px;
+    font-size: 30px;
+    background-color: #fbd157;   
+    font-family: digital;
+}
