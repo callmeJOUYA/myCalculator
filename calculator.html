@@ -10,7 +10,32 @@
 <body>
     <div class="calculator">
         <form>
-
+            <input type="text" id='answer'>
+            <br>
+            <input type="button" value="bs" onclick="clearTheLast()">
+            <input type="button" value="^2" onclick="pwr2()">
+            <input type="button" value="sqrt" onclick="sqrt()">
+            <input type="button" value="/" onclick="showingQuestion('/')">
+            <br>
+            <input type="button" value="1" onclick="showingQuestion('1')">
+            <input type="button" value="2" onclick="showingQuestion('2')">
+            <input type="button" value="3" onclick="showingQuestion('3')">
+            <input type="button" value="*" onclick="showingQuestion('*')">
+            <br>
+            <input type="button" value="4" onclick="showingQuestion('4')">
+            <input type="button" value="5" onclick="showingQuestion('5')">
+            <input type="button" value="6" onclick="showingQuestion('6')">
+            <input type="button" value="-" onclick="showingQuestion('-')">
+            <br>
+            <input type="button" value="7" onclick="showingQuestion('7')">
+            <input type="button" value="8" onclick="showingQuestion('8')">
+            <input type="button" value="9" onclick="showingQuestion('9')">
+            <input type="button" value="+" onclick="showingQuestion('+')">
+            <br>
+            <input type="button" value="C" onclick="clear()">
+            <input type="button" value="0" onclick="showingQuestion('0')">
+            <input type="button" value="." onclick="showingQuestion('.')">
+            <input type="button" value="=" onclick="calculateAnswer()">
         </form>
     </div>
     <script src="calculator.js"></script>
