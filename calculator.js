@@ -2,14 +2,14 @@ function showingQuestion(value){
     document.getElementById("answer").value += value;
 }
 
-function clearAnswer(){
-    document.getElementById("answer").value = "";
-}
-
-function clculate(){
+function calculate(){
     var ans = document.getElementById("answer").value;
     var res = eval(ans)
     document.getElementById("answer").value = res
+}
+
+function clearAnswer(){
+    document.getElementById("answer").value = "";
 }
 
 function clearTheLast(){
