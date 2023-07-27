@@ -17,3 +17,14 @@ function clearTheLast(){
     answer = answer.slice(0, -1);
     document.getElementById("amswer").value = answer;
 }
+
+function sqrt(){
+    var answer = document.getElementById("answer").value;
+    var sqrt = Math.sqrt(answer);
+    document.getElementById("answer").value = sqrt;
+}
+
+function pwr2(){
+    var answer = document.getElementById("answer").value;
+    document.getElementById("answer").value = Math.pow(answer, 2);
+}
